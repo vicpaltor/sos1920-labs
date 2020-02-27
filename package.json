@@ -1,0 +1,23 @@
+{
+  "name": "sos1920-l04",
+  "version": "0.0.0",
+  "description": "This is a the result of Lab04",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicpaltor/sos1920-labs.git"
+  },
+  "author": "vicpaltor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicpaltor/sos1920-labs/issues"
+  },
+  "homepage": "https://github.com/vicpaltor/sos1920-labs#readme",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4"
+  }
+}
