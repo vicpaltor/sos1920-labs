@@ -1,0 +1,44 @@
+    1  cd /workspace/sos1920-labs; clear
+    2  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    3  cd /workspace/sos1920-labs; clear
+    4  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    5  cd /workspace/sos1920-labs; clear
+    6  ls
+    7  node main.js
+    8  echo "# sos1920-labs" >> README.md
+    9  git init
+   10  git add README.md
+   11  git commit -m "first commit"
+   12  git config --global user.email "you@example.com"
+   13  git config --global user.email "victormpalostorres@gmail.com"
+   14  git config --global user.name "vicpaltor"
+   15  git commit -m "first commit"
+   16  git remote add origin https://github.com/vicpaltor/sos1920-labs.git
+   17  git push -u origin master
+   18  git checkout -b l04
+   19  ls
+   20  git add .
+   21  git commit -m "update md"
+   22  git push
+   23  git push -u origin l04
+   24  git checkout master
+   25  git checkout l04
+   26  node -v
+   27  npm -v
+   28  ls
+   29  npm init 
+   30  ls
+   31  node main.js
+   32  npm start
+   33  npm install cool-ascii-faces
+   34  npm install cool-ascii-faces --save
+   35  npm star
+   36  npm start
+   37  touch .gitignore
+   38  git add .
+   39  git commit -m "created gitignore"
+   40  git push
+   41  npm start
+   42  npm install express --save
+   43  npm start
+   44  history > history.txt
